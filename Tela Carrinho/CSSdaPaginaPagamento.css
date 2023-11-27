@@ -284,8 +284,10 @@
     width: 100%;
   }
 
-  #input_group button{
-
+  button.col-6{
+    border-radius: 10px;
+    padding: 10px;
+    border-color: none;
   }
 
 
@@ -338,5 +340,49 @@ border-radius: 20px;
 
 .picture__img{
   max-width: 100px;
+}
+
+.d-flex{
+  width: 25rem;
+}
+.container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 3vw;
+}
+
+.btn-primeiro-success{
+  background-color:  rgb(177, 234, 65);
+}
+
+.btn-anunciar{
+  background-color: rgb(177, 234, 65) !important;
+  color: white !important;
+}
+.btn-entrar{
+background-color:white !important;
+color: rgb(177, 234, 65) !important ;
+width: 4rem;
+transition: .4s;
+border-radius: 50px;
+}
+
+.imagemPerfil{
+  width: 3.10rem;
+  height: 3.0rem;
+  border-radius: 50px;
+}
+
+.btn-entrar:hover{
+  box-shadow:  2px 2px ,
+             -2px -2px 2px #ffffff;
 }
 

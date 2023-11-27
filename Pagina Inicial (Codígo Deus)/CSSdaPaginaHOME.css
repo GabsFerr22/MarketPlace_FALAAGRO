@@ -49,8 +49,15 @@ body{
 .btn-entrar{
 background-color:white !important;
 color: rgb(177, 234, 65) !important ;
-width: 6rem;
+width: 4rem;
 transition: .4s;
+border-radius: 50px;
+}
+
+.imagemPerfil{
+  width: 3.10rem;
+  height: 3.0rem;
+  border-radius: 50px;
 }
 
 .btn-entrar:hover{
